@@ -1,0 +1,38 @@
+
+Bước 1 : TẠO CƠ SỞ DỮ LIỆU
+	=================================================================================================
+	Chươnng trình sử dụng đường dẫn mặc định để kết nối với database :
+	"jdbc:mysql://localhost/qlsv?user=root&password=123456"
+	
+	hostname : localhost
+	port 	 : 3306
+	user     : root
+	password : 123456
+
+	Nếu cấu hình database người dùng khác với thông tin trên sẽ không thể truy cập cơ sở dữ liệu.
+	Vui lòng đổi các thông tin user và password như trên.
+	Hoặc tạo một cơ sở dữ liệu mới với thông tin như trên.
+	===================================================================================================
+	Tạo CSDL	
+
+	Cách 1: Sử dụng MySQL để thực thi file quanlysinhvien.sql
+
+	Cách 2: Vào MySQL Workbench chọn Server / Data Import / Import from Self-Contained File rồi chọn đường dẫn chứa file quanlysinhvien.sql
+		Chuyển sang tab Import Progress chọn Start Import 
+
+	Sau khi thực thi kiểm tra xem sự tồn tại database qlsv trong cơ sở dữ liệu.
+	Nếu có thì thành công việc tạo cơ sở dữ liệu
+
+Bước 2 : CHẠY ỨNG DỤNG
+	
+	- Mở ứng dụng quản lý sinh viên bằng file QLSV.jar để vào 
+	  Giao diện chính thức của chương trình
+
+Nếu có vấn đề trong việc cài đặt ứng dụng, vui lòng liên hệ :
+
+	MSSV      : 102180269
+	Họ và tên : Phạm Văn Tánh
+	Lớp	  : 18TCLC_Nhật
+	Khoa 	  : CNTT - Đại học Bách Khoa Đà Nẵng
+
+
